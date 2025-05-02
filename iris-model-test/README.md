@@ -12,13 +12,13 @@ This project showcases basic AI Testing practices using a simple machine learnin
 
 ## 📦 Project Structure
 
+```text
 iris-model-testing/
-├── .gitignore                    # Excludes venv, .pkl, .pyc, etc.
-├── README.md                     # Project overview and instructions
-├── iris_model_testing.ipynb      # Jupyter notebook with model, tests, and results
-├── requirements.txt              # Package list for recreating the environment
+├── .gitignore              # Excludes venv, .pkl, .pyc, etc.
+├── README.md               # Project overview and instructions
+├── iris_model_testing.ipynb  # Jupyter notebook with model, tests, and results
+├── requirements.txt        # Package list for recreating the environment
 ├── results/
 │   ├── classification_report.csv  # Model test results (accuracy, precision, etc.)
-│   └── iris_model.pkl             # Saved trained model (excluded by .gitignore)
-└── venv/                         # Local virtual environment (excluded by .gitignore)
-
+│   └── iris_model.pkl      # Saved trained model (excluded by .gitignore)
+└── venv/                   # Local virtual environment (excluded by .gitignore)
